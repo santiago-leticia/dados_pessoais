@@ -38,7 +38,7 @@ export default function Etiquetas(){
             <div className="mt-4 w-full bg-gray-400 flex flex-wrap justify-evenly grow"> 
                 {
                     listaClientes.map((cli, index)=>(
-                    <div key={index} className="h-28 p-2.5 border-2 border-blue-900 w-96 m-2.5 bg-blue-500 rounded-md">
+                    <div key={index} className="h-28 p-2.5 border-2 border-blue-400 w-96 m-2.5 bg-blue-500 rounded-md">
                         <p className="mb-1 font-bold">Nome: {cli.nome}</p>
                         <p className="mb-1 font-bold">E-mail: {cli.email}</p>
                         <p className="mb-1 font-bold">CPF: {cli.cpf}</p>
